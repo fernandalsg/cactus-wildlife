@@ -2,12 +2,6 @@
 /*  REUSABLE GRIDS */
 /* ****************** */
 
-.grid {
-}
-
-.grid--3-cols {
-}
-
 /******** HEADER *****************/
 /* ******************************* */
 
@@ -50,5 +44,10 @@
 /* ****************************** */
 
 .container {
+  /* background-color: aqua; */
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  border-radius: 8px;
+  box-shadow: 1.2rem 1.2rem 0 #00000046;
+  column-gap: 1rem;
 }
