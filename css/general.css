@@ -1,3 +1,13 @@
+/* ******************* */
+/*  REUSABLE GRIDS */
+/* ****************** */
+
+.grid {
+}
+
+.grid--3-cols {
+}
+
 /******** HEADER *****************/
 /* ******************************* */
 
@@ -13,4 +23,32 @@
 
 .logo {
   height: 2.4rem;
+}
+
+/* ******* */
+/*  HEADINGSSSSS */
+/* ****************** */
+
+.heading-primary {
+  font-size: 3.2rem;
+  /* text-transform: uppercase; */
+  font-weight: 300;
+  color: #2b8a3e;
+}
+
+.heading-second {
+  font-size: 3.2rem;
+  text-transform: uppercase;
+  margin-bottom: 4rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 4.2rem 4.2rem 4.2rem 4.2rem;
+}
+
+/* ****************************** */
+
+.container {
+  display: grid;
 }

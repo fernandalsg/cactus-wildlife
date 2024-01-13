@@ -8,4 +8,14 @@ Join us on this exploration of nature's spiky wonders, where we share our passio
 
 Esto es un cambio en la compu
 
-Hola monkey
+# TYPES OF CACTUS
+
+Thanksgiving Cactus (Schlumbergera truncata)
+
+- Thanksgiving cactus is a long-lived type that doesn't have prickly spikes, so it can be grown around kids and pets. It can live for decades with the right care.
+
+-It's related to Christmas cactus, which is more difficult to find because it's more fragile to ship, and Easter cactus, which has more star-shaped flowers.
+
+- All three types need similar care with bright light and total darkness for 12 to 14 hours, starting in the fall, to rebloom.
+
+Golden Barrel Cactus
