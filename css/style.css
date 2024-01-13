@@ -1,0 +1,91 @@
+/********************************
+DISEÑO REGLAS DE LA PAGINA WEB
+
+----------------------
+COLORES DE TEXTO
+#333
+
+
+---------------------
+COLORES DE ACENTO
+
+
+---------------------
+TIPOGRAFIA-LETRA
+Poppings
+
+------------------------
+SISTEMA DE TIPOGRAFIA (tamaño)
+10 / 12 / 14 / 16 /  18 / 20 / 24 / 30 / 36 / 44 / 52
+ESPACIADO DE LETRAS
+2 / 4 / 8 / 12 / 14 / 16 / 24 / 32 / 48 / 64 / 84 / 96 / 128
+
+
+
+
+***************************************/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Poppins;
+  line-height: 1;
+  font-weight: 400;
+  color: #333;
+}
+
+/******** HEADER *****************/
+/* ******************************* */
+
+/* NAVIGATION */
+
+.list-menu {
+  list-style: none;
+  display: flex;
+  gap: 3.2rem;
+}
+
+.nav-menu {
+  list-style: none;
+}
+
+.menu-bar:link,
+.menu-bar:visited {
+  text-decoration: none;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.menu-bar:hover,
+.menu-bar:active {
+  text-decoration: none;
+  color: #2b8a3e;
+}
+
+/******** SECTION HERO *****************/
+/* ******************************* */
+
+.section-hero {
+  max-height: auto;
+}
+
+.container-hero {
+  max-width: 100%;
+  margin-top: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.img-cactus {
+  width: 100%;
+  background-size: cover;
+}
