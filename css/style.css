@@ -76,6 +76,7 @@ body {
 
 .section-hero {
   max-height: auto;
+  margin-bottom: 6.4rem;
 }
 
 .container-hero {
@@ -107,6 +108,11 @@ body {
   box-shadow: 0 20px 10px 0 #0000001d;
 }
 
+.type-text-box {
+  background-color: #faf9f7;
+  box-shadow: 0 20px 10px 0 #0000001d;
+}
+
 .text-big {
   font-size: 1.8rem;
   line-height: 2rem;
@@ -120,4 +126,7 @@ body {
 .text-small {
   font-size: 1.4rem;
   line-height: 1.8rem;
+
+  text-align: center;
+  padding: 1rem;
 }
