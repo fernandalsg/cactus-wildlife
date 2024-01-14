@@ -75,8 +75,8 @@ body {
 /* ******************************* */
 
 .section-hero {
-  max-height: auto;
-  margin-bottom: 6.4rem;
+  margin-bottom: 6.8rem;
+  height: 75%;
 }
 
 .container-hero {
@@ -101,16 +101,36 @@ body {
 /* ************* TYPES OF CACTUS */
 /* ************************************ */
 
+.section-types {
+  margin-bottom: 6.4rem;
+}
+
 .type-img {
   max-width: 100%;
   grid-column: 2 / 2;
   border-radius: 8px;
-  box-shadow: 0 20px 10px 0 #0000001d;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.11);
+}
+
+.type-img-2 {
+  max-width: 100%;
+  grid-column: 3 / 3;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.11);
 }
 
 .type-text-box {
   background-color: #faf9f7;
-  box-shadow: 0 20px 10px 0 #0000001d;
+  grid-column: 3 / 3;
+  border-radius: 8px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.11);
+}
+
+.type-text-box-2 {
+  background-color: #faf9f7;
+  border-radius: 8px;
+  grid-column: 2 / 2;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.11);
 }
 
 .text-big {
@@ -120,6 +140,7 @@ body {
   display: inline-block;
 
   margin-bottom: 3.2rem;
+  margin-top: 3.2rem;
   padding: 1.8rem;
 }
 
