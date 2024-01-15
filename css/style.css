@@ -8,7 +8,7 @@ COLORES DE TEXTO
 
 ---------------------
 COLORES DE ACENTO
-#FAF9F7 ---- 
+#FAF9F7 ----
 #2b8a3e ------
 
 ---------------------
@@ -92,16 +92,110 @@ body {
 
 .img-hero {
   width: 100%;
-  height: auto;
-  background-size: cover;
+  height: 48rem;
+  object-fit: cover;
   /* filter: blur(2px); */
 }
 
 .hero-text-box {
+  width: 100%;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.hero-title {
+  font-weight: 800;
+  animation: color-animation 4s linear infinite;
+}
+
+.title-word-1 {
+  --color-1: #1e612b;
+  --color-2: #2b8a3e;
+  --color-3: #80b98b;
+  transition: all 0.5s;
+}
+
+.title-word-1:hover {
+  font-size: 6.6rem;
+}
+
+.title-word-2 {
+  --color-1: #80b98b;
+  --color-2: #d5e8d8;
+  --color-3: #2b8a3e;
+  transition: all 0.5s;
+}
+
+/* .title-word-2 {
+  --color-1: #80b98b;
+  --color-2: #1e612b;
+  --color-3: #2b8a3e;
+  transition: all 0.5s;
+} */
+.title-word-2:hover {
+  font-size: 6.6rem;
+}
+
+.title-word-3 {
+  --color-1: #1e612b;
+  --color-2: #80b98b;
+  --color-3: #d5e8d8;
+  transition: all 0.5s;
+}
+
+/* .title-word-3 {
+  --color-1: #2b8a3e;
+  --color-2: #80b98b;
+  --color-3: #1e612b;
+  transition: all 0.5s;
+} */
+
+.title-word-3:hover {
+  font-size: 6.6rem;
+}
+
+.title-word-4 {
+  --color-1: #d5e8d8;
+  --color-2: #1e612b;
+  --color-3: #80b98b;
+  transition: all 0.5s;
+}
+
+/* .title-word-4 {
+  --color-1: #1e612b;
+  --color-2: #2b8a3e;
+  --color-3: #80b98b;
+  transition: all 0.5s;
+} */
+
+.title-word-4:hover {
+  font-size: 6.6rem;
+}
+
+@keyframes color-animation {
+  0% {
+    color: var(--color-1);
+  }
+  32% {
+    color: var(--color-1);
+  }
+  33% {
+    color: var(--color-2);
+  }
+  65% {
+    color: var(--color-2);
+  }
+  66% {
+    color: var(--color-3);
+  }
+  99% {
+    color: var(--color-3);
+  }
+  100% {
+    color: var(--color-1);
+  }
 }
 
 /* ************************************ */
