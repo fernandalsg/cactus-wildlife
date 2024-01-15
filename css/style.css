@@ -100,7 +100,7 @@ body {
 .hero-text-box {
   width: 100%;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -108,6 +108,7 @@ body {
 .hero-title {
   font-weight: 800;
   animation: color-animation 4s linear infinite;
+  text-shadow: 0.5px 0.5px 0.5px #1e612b;
 }
 
 .title-word-1 {
@@ -172,6 +173,17 @@ body {
 
 .title-word-4:hover {
   font-size: 6.6rem;
+}
+
+.hero-icon {
+  font-size: 10rem;
+  padding-top: 2.4rem;
+  color: #1e612b;
+  transition: all 0.5s;
+}
+
+.hero-icon:hover {
+  font-size: 12rem;
 }
 
 @keyframes color-animation {
