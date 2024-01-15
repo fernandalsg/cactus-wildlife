@@ -14,6 +14,15 @@
       rel="stylesheet"
     />
 
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
     <title>Cactus</title>
   </head>
   <body>
@@ -39,12 +48,23 @@
             alt="Image of small cactus"
           />
           <div class="hero-text-box">
-            <h1 class="heading-primary">Everything about cactus</h1>
+            <h1 class="heading-primary hero-title">
+              <span class="hero-title title-word-1">Every</span>
+              <span class="hero-title title-word-2">thing</span>
+              <span class="hero-title title-word-3">About</span>
+              <span class="hero-title title-word-4">Cacti</span>
+            </h1>
+            <a href="#types"
+              ><ion-icon
+                class="hero-icon"
+                name="chevron-down-outline"
+              ></ion-icon
+            ></a>
           </div>
         </div>
       </section>
 
-      <section class="section-types">
+      <section class="section-types" id="types">
         <div class="heading">
           <h2 class="heading-second">Discover all types of cactus</h2>
         </div>
