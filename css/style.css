@@ -108,7 +108,7 @@ body {
 }
 
 .hero-title {
-  font-weight: 800;
+  font-weight: 700;
   animation: color-animation 4s linear infinite;
   text-shadow: 0.5px 0.5px 0.5px #1e612b;
 }
@@ -217,7 +217,7 @@ body {
 /* ************************************ */
 
 .section-types {
-  margin-bottom: 9.6rem;
+  margin-bottom: 12.6rem;
 }
 
 /*********************** */
