@@ -355,14 +355,14 @@ body {
   display: grid;
   grid-template-columns: 50% 50%;
   gap: 2rem;
-
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.084);
   margin-bottom: 12.6rem;
 }
 
 .container-testimonials {
   display: grid;
   /* grid-template-columns; */
-  gap: 4.6rem;
+  gap: 2rem;
 }
 
 .testimonials-title {
@@ -393,6 +393,15 @@ body {
   object-fit: cover;
 }
 
+.biomes-icon {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-size: 3rem;
+  color: #6bad78;
+}
+
 /* ************************************ */
 /* ************* CAROUSEL */
 /* ************************************ */
@@ -400,6 +409,28 @@ body {
 .carousel-section {
   margin-bottom: 9.6rem;
 }
+
+.topic {
+  margin-bottom: 1.6rem;
+}
+
+.des {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+
+  text-transform: lowercase;
+}
+
+.btn {
+  border-radius: 6px;
+}
+
+/* BUTTONS HOVER EFFECT */
+
+/* .see-more-btn:hover {
+  background-color: #bfdcc5;
+} */
+
 .carousel {
   height: 100vh;
   margin-top: -50px;
