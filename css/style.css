@@ -350,7 +350,7 @@ body {
 /* ************************* */
 
 .section-testimonials {
-  background-color: #eaf3ec;
+  background-color: #faf9f7;
   padding: 4.6rem 0;
   display: grid;
   grid-template-columns: 50% 50%;
@@ -369,14 +369,14 @@ body {
   font-size: 3.6rem;
   text-transform: uppercase;
   padding: 2rem 6rem 2rem 6rem;
-  color: #2b8a3e;
+  color: #1e612b;
 }
 
 .text-small-info {
   font-size: 1.6rem;
   padding: 2rem 6rem 4rem 6rem;
   font-weight: 400;
-  color: #2b8a3e;
+  color: #1e612b;
 
   line-height: 2rem;
   text-align: justify;
@@ -399,7 +399,7 @@ body {
   align-items: center;
 
   font-size: 3rem;
-  color: #6bad78;
+  color: #1e612b;
 }
 
 /* ************************************ */
